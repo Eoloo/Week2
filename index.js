@@ -23,25 +23,27 @@ const month = monthElement.value;
 const gender = genderElement.value;
 const myBirthday = [date,month,gender];
 
+//setting date 
+
 
 
    //do some checks on the inputs to ensure user enters all required data
 
-if (date == '') {
-    alert('Please enter your date of birth')
-}
+// if (date == '') {
+//     alert('Please enter your date of birth')
+// }
 
-if (month == '') {
-    alert('Please enter your Month and Year of birth')
-}
+// if (month == '') {
+//     alert('Please enter your Month and Year of birth')
+// }
 
-if (gender == '') {
-    alert('Please enter your Gender')
-}
-else {
+// if (gender == '') {
+//     alert('Please enter your Gender')
+// }
+// else {
 
-    alert('Congratulations, you are Akan')
+//     alert('Congratulations, you are Akan')
 
-}  
-console.log(myBirthday) 
-}
+// }  
+// console.log(myBirthday) 
+// }
