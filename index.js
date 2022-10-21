@@ -10,7 +10,7 @@
 //let countEl = document.getElementById("count-el")
 // 
 
-const birthday = () => {
+const Birthday = () => {
 const dateElement = document.getElementById("Date")
 const monthElement= document.getElementById("Month")
 const genderElement = document.getElementById("Gender")
@@ -18,7 +18,7 @@ const genderElement = document.getElementById("Gender")
 const Date = fNameElement.value;
 const Month = lNameElement.value;
 const Gender = emailElement.value;
-const birthday = [Date,Month,Gender];
+const Birthday = [Date,Month,Gender];
 
    //do some checks on the inputs to ensure user enters all required data
 
@@ -39,6 +39,6 @@ if (Gender == '') {
 
 }   
 
-console.log(birthday)
+console.log(Birthday)
 
 }
