@@ -18,7 +18,7 @@ const genderElement = document.getElementById("Gender")
 const Date = fNameElement.value;
 const Month = lNameElement.value;
 const Gender = emailElement.value;
-const Birthday = [Date,Month,Gender];
+const birthday = [Date,Month,Gender];
 
    //do some checks on the inputs to ensure user enters all required data
 
