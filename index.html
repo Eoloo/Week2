@@ -8,17 +8,25 @@
         <script src="index.js" defer></script>
     </head>
 </div>
-
+<div>
+    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. This program is designed to allow users check in their date and year of birth to get their Akan names</p>
+</div>
 <div>
     <body>
         <form>
             <label>Date</label>
-                <input type="text" placeholder type="Enter Date:">
+                <input type="day" placeholder type="Enter Date:" id="date">
             <label>Month/Year</label>
-                <input type="Month" Placeholder type="Select Month/Year:">
-            <label>Gender</label>
-                <input type="Gender" placeholder type="Select Gender">
-            <button type="button" onclick="Birthday()" value>Birthday</button>
+                <input type="Month" Placeholder type="Select Month/Year:" id="month">
+            <label for="Gender" id="gender">Gender:</label>
+                <select id="Gender" name="gender" size="3" multiple>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            <!-- <label>Gender</label>
+                <input type="Gender" placeholder type="Select Gender" id="gender">            -->
+            <button type="button" onclick="myBirthday()" value>myBirthday</button>
         </form>
     </body>
 </div>
