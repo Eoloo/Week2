@@ -47,3 +47,4 @@ const myBirthday = [date,month,gender];
 // }  
 // console.log(myBirthday) 
 // }
+}                                                  
