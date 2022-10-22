@@ -23,6 +23,8 @@ const month = monthElement.value;
 const gender = genderElement.value;
 const myBirthday = [date,month,gender];
 
+console.log(myBirthday) 
+
 //setting date 
 
 
@@ -48,3 +50,10 @@ const myBirthday = [date,month,gender];
 // console.log(myBirthday) 
 // }
 }                                                  
+//GETTING THE DAYS OF THE WEEK CONSTANT
+// const Weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// let weekday = Weekdays [document.getWeekdays()];
+// 
+//GETTING THE DAYS OF THE MONTH CONSTANT
+// const Monthsdays = ["d<31"]
+// let Monthday = monthsday [document.getMonthsDay()];
