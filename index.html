@@ -16,13 +16,15 @@
         <form>
             <label for="date">Date of Birth</label>
                 <input type="date" id="date">
-            <label for="Gender" id="gender">Gender:</label>
-                <select id="Gender" name="gender">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
+            <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="null"></option>
                 </select>
-            <button type="button" onclick="myBirthday()" value>myBirthday</button>
         </form>
+        <button type="button" onclick="myBirthday()" value>myBirthday</button>
+        <p id="results"></p>
     </body>
 </div>
 </html>

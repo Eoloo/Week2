@@ -1,5 +1,5 @@
 
-const myBirthday = () => {
+   const myBirthday = () => {
    // retrieve elements
    var dateElement = document.getElementById("date")
    const genderElement = document.getElementById("gender")
@@ -64,16 +64,14 @@ const myBirthday = () => {
    
    }
     
-   
        //   male name get function
-   
-      
    
    var index;
        
       if (dayOfTheWeek == 0){
          index = 6;
       }
+      
       else {
          index = dayOfTheWeek - 1;
       }
@@ -103,7 +101,6 @@ const myBirthday = () => {
            //  }); 
    
    console.log(myBirthday)
-   
    
    }
                
