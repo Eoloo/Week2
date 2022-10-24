@@ -77,19 +77,19 @@
       }
             
    if (gender == "male" & date != '') {
-      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + maleNames[index] +'!!!')
+      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + maleNames[index] +'!!')
                  
    } 
    
    
    else if (gender == "female" & date != ''){
-      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!!')
+      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!')
        
    }
    
    else{
    
-      alert ('You have entered incorrect datails, kindly try again!!')
+      alert ('You have entered incorrect datails, kindly try again!')
    }  
                    
    
