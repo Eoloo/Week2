@@ -7,6 +7,12 @@ head{
     font-weight: 200%;
     align-content: center;
 }
+h1  {
+    color: blue;
+    font-family: Arial;
+    font-size: 150%;
+    font-weight: 100;
+    }
 p   {
     color: black;
     font-family: Arial;
