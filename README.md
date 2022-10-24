@@ -23,4 +23,4 @@ email: eoloo420@gmail.com,
 Twitter: @ochollaOloo
 
 License and Copyright information: 
-Copyright October,2022. Evans-Oloo
+Copyright October.2022. Evans-Oloo
