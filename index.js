@@ -12,16 +12,14 @@
 
 const myBirthday = () => {
 const dateElement = document.getElementById("date")
-const monthElement= document.getElementById("month")
 const genderElement = document.getElementById("gender")
 
 
 
 
 const date = dateElement.value;
-const month = monthElement.value;
 const gender = genderElement.value;
-const myBirthday = [date,month,gender];
+const myBirthday = [date,gender];
 
 console.log(myBirthday) 
 

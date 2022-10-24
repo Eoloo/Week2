@@ -14,18 +14,13 @@
 <div>
     <body>
         <form>
-            <label>Date</label>
-                <input type="day" placeholder type="Enter Date:"id="date">
-            <label>Month/Year</label>
-                <input type="Month" Placeholder type="Select Month/Year:" id="month">
+            <label for="date">Date of Birth</label>
+                <input type="date" id="date">
             <label for="Gender" id="gender">Gender:</label>
                 <select id="Gender" name="gender">
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
-                    <option value="Other">Other</option>
                 </select>
-            <!-- <label>Gender</label>
-                <input type="Gender" placeholder type="Select Gender" id="gender">            -->
             <button type="button" onclick="myBirthday()" value>myBirthday</button>
         </form>
     </body>
