@@ -56,11 +56,11 @@
          // date of birth validation
    
    if (date == '') {
-           alert('please enter a valid date of birth')
+           alert('Please enter a valid date of birth')
    }
      
    if (gender == 'null'){
-             alert('please select your gender')
+             alert('Please select your gender')
    
    }
     
@@ -71,7 +71,7 @@
       if (dayOfTheWeek == 0){
          index = 6;
       }
-      
+
       else {
          index = dayOfTheWeek - 1;
       }
