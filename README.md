@@ -7,7 +7,7 @@ Project description:
 This is a web application that takes a user's birthday and generates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
 Author(s) information:
-Name:Evans Oloo
+Name:Evans Oloo, DevOps and SRE student at Moringa School
 
 Setup instructions:
 Click on the provided link or copy and paste it on your preferred browser, supply your date of birth, click on myBirthday button and see your Akan name.
