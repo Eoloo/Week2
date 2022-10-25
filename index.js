@@ -61,7 +61,7 @@
      
    if (gender == 'null'){
              alert('Please select your gender')
-   
+             
    }
     
        //   male name get function
