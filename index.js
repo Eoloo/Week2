@@ -3,6 +3,7 @@
    // retrieve elements
    var dateElement = document.getElementById("date")
    const genderElement = document.getElementById("gender")
+
    
    
    // retrieving input values
@@ -90,7 +91,9 @@
    }  
                    
    
-   
+   document.getElementById("clear").onclick = function() {
+      document.getElementById("myBirthday" + "gender").value = "";
+    };
            //  let btnClear = document.querySelector('button');
            //  let inputs = document.querySelectorAll('input');
            //  btnClear.addEventListener('click', () =>{
