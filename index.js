@@ -90,7 +90,7 @@
       alert ('You have entered incorrect datails, kindly try again!')
    }  
                    
-   
+   //clear/reset fuction
    document.getElementById("clear").onclick = function() {
       document.getElementById("myBirthday" + "gender").value = "";
     };
