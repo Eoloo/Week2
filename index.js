@@ -29,9 +29,6 @@
    
    //     const dates = [CC, YY, MM, DD]
    
-   // console.log(date)
-   // 
-   
    
    var dayOfTheWeek = Math.floor((((CC/4)-2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD)%7);
        
@@ -55,13 +52,13 @@
    
          // date of birth validation
    
-   if (date == '') {
-           alert('Please enter a valid date of birth')
+   if (date == ''){
+           alert('Please enter a valid Date of Birth')
    }
      
    if (gender == 'null'){
              alert('Please select your gender')
-             
+
    }
     
        //   male name get function
@@ -76,7 +73,7 @@
          index = dayOfTheWeek - 1;
       }
             
-   if (gender == "male" & date != '') {
+   if (gender == "male" & date != ''){
       document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + maleNames[index] +'!!')
                  
    } 
@@ -88,7 +85,7 @@
    }
    
    else{
-   
+
       alert ('You have entered incorrect datails, kindly try again!')
    }  
                    
