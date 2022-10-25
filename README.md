@@ -15,9 +15,9 @@ Click on the provided link or copy and paste it on your preferred browser, suppl
 BDD:
 Title: Ghananian Akan Names Generator
 
-Narrative: As a user, i want the akan names generator so that i can know the day of the week i was born based on the Ghananian Akan naming culture.
+Narrative: As a user, I want the akan names generator so that i can know the day of the week i was born based on the Ghananian Akan naming culture.
 
-Acceptance criteria: Given that a user supplies their DOB and gender, when they click on myBirtday button then thier day of birth and Akan name will be generated on pops up on the screen.
+Acceptance criteria 1: Given that a user supplies their DOB and gender, when they click on myBirtday button then thier day of birth and Akan name will be generated on pops up on the screen.
 
 Technologies used:
 Javascript, CSS and HTML
