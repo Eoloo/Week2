@@ -83,7 +83,7 @@
    
    
    else if (gender == "female" & date != ''){
-      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!')
+      document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] +'!!')
        
    }
    
