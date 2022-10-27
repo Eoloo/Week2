@@ -92,7 +92,9 @@
                    
    //clear/reset fuction
    document.getElementById("clear").onclick = function() {
-      document.getElementById("myBirthday" + "gender").value = "";
+      document.getElementById("myBirthday").value = "";
+      document.getElementById("gender").value = 'null';
+      document.getElementById("results").textContent = "";
     };
            //  let btnClear = document.querySelector('button');
            //  let inputs = document.querySelectorAll('input');
