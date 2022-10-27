@@ -20,7 +20,6 @@ h1 {
 }
 
 button {
-    border: forestgreen;
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgb(185, 44, 44);
@@ -37,5 +36,5 @@ p   {
 }
 #clear {background: coral;
 }
-#myBirthday {background: chartreuse;
+#myBirthday {background-color: darkturquoise;
 }
